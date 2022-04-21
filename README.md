@@ -9,6 +9,7 @@
 	i.   Write down the database credentials.
 	ii.  Write down all the required credentials for emailing purpose
       	iii. Also write down the api_key for accessing the forecast
+	iv . Write down the secret key
 7. Run the command "python manage.py migrate" to migrate the models in the database.
 8. After running the previous command, run "python manage.py runserver" in order to run the server.
 
