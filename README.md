@@ -21,5 +21,5 @@
 11. Given below are the steps to create cron job,
 	i. Run command "which python" on the terminal (Environment must be activated)
 	ii. Copy that path and run command "crontab -e" which will navigate to the editor.
-	iii. Write * 09 * * * copied_path manage.py command. (e.g: * 09 * * * /venv/bin/python manage.py forecast_email).
+	iii. Write * 09 * * * copied_path manage.py command. (e.g: * 09 * * * /home/omparkash/forecast/venv/bin/python manage.py forecast_email).
 	iv. This will register the cron job and send email at 9 am every day.
